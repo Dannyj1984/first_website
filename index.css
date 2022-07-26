@@ -48,6 +48,7 @@ body{
     background-color: grey;
     min-width: 50%;
     margin-top: 100px;
+    display:flex;
     align-items:center;
     justify-content: center;
 }
@@ -79,6 +80,8 @@ ul, a{
     list-style: none;
     color:#E5E7EB;
     font-size:18px;
+    display:flex;
+    gap:15px;
 }
 /*random section*/
 
@@ -111,3 +114,83 @@ ul, a{
     border: 2px solid #3882F6;
     border-radius: 20px;
 }
+
+/* quote */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:100px;
+}
+
+.quote-main {
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    margin-block-end: 0;
+    display: flex;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+}
+
+/* call to action */
+
+.call-to-action {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.modal {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-text {
+    color:white;
+    font-size: 18px;
+}
+
+.call-main {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.call-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-button {
+    background-color:#3882F6 ;
+    border: 2px solid white ;
+    color:white;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+/*Footer*/
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
+}
+
